@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        :root{
+            --bs-font-sans-serif:system-ui,-apple-system,'Microsoft JhengHei',微軟正黑體,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+        }
+        .bg-cover{
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="display-6 text-center border-bottom py-3">
+        <a href="#" class="link-dark text-decoration-none">Music Info</a>
+    </div>
+
+    <div class="overflow-auto py-1 mb-2">
+        <nav class="nav justify-content-between flex-nowrap text-nowrap">
+            <a class="nav-link link-info" href="#">Male Mandarin Singers</a>
+            <a class="nav-link link-info" href="#">Female Mandarin Singers</a>
+            <a class="nav-link link-info" href="#">Mandarin Groups</a>
+            <a class="nav-link link-success" href="#">Male Western Singers</a>
+            <a class="nav-link link-success" href="#">Female Western Singers</a>
+            <a class="nav-link link-success" href="#">Western Groups</a>
+            <a class="nav-link link-secondary" href="#">Other Languages</a>
+        </nav>
+    </div>
+
+    <div class="p-4 text-white bg-cover rounded-3 mb-3" style="background-image: url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');">
+        <div class="col-md-5">
+            <h1 class="fst-italic">Title of a longer featured blog post</h1>
+            <p class="lead mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aut impedit, delectus est pariatur perspiciatis quis tenetur quos soluta voluptatem numquam ipsa sunt ipsam aliquam?</p>
+            <a class="lead mt-3 mb-0 text-white" href="#">Continue reading...</a>
+        </div>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-lg-2 mb-3">
+        <div class="col">
+            <div class="card row g-0 flex-row h-100">
+                <div class="col">
+                    <div class="p-4 d-flex flex-column h-100">
+                        <strong>News</strong>
+                        <h2 class="card-title">lorem</h2>
+                        <p class="card-subtitle">July 16 2023</p>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis veniam, sunt aliquam necessitatibus quasi?</p>
+                        <a href="#" class="card-link">Continue reading...</a>
+                    </div>
+                </div>
+                <div class="col-3 bg-cover d-none d-lg-block" style="background-image: url(https://images.unsplash.com/photo-1526218626217-dc65a29bb444?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card row g-0 flex-row h-100">
+                <div class="col">
+                    <div class="p-4 d-flex flex-column h-100">
+                        <strong>Activities</strong>
+                        <h2 class="card-title">lorem</h2>
+                        <p class="card-subtitle">July 16 2023</p>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis veniam, sunt aliquam necessitatibus quasi?</p>
+                        <a href="#" class="card-link">Continue reading...</a>
+                    </div>
+                </div>
+                <div class="col-3 bg-cover d-none d-lg-block" style="background-image: url(https://images.unsplash.com/photo-1604513843835-cda9439cca7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col col-lg-8">
+            <div class="border-bottom p-4 p-lg-0">
+                <h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                    <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                    <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                    <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                    <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                    Musician
+                </h1>
+            </div>
+            <div class="p-4">
+                <div class="mt-1 mb-1 border-bottom">
+                    <div class="row">
+                        <div class="col-lg-3 bg-cover " style="background-image: url(https://images.unsplash.com/photo-1600962815726-457c46a12681?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80);"></div>
+                        <div class="col">
+                            <header class="display-5 text-warning mb-1">Donghae</header>
+                            <a href="#" class="text-decoration-none link-secondary">SUPER JUNIOR</a>
+                            <p class="mt-2">Singer of South Korea. He is a member of the boy group SUPER JUNIOR and takes on the roles of lead dancer, lead vocalist, and sub-rapper. He is an all-rounder who can handle all positions above average. His real name is Lee Donghae. This name was acquired because he used the honorary title 東子 (Dong-ja) of the Lee clan from Jeonju, not related to Donghae City in Gangwon Province. He was born in Mokpo, Jeollanam-do. Since his name is Donghae, he disliked class time because his friends would mock him by singing the national anthem every time attendance was called.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-1 mb-1 border-bottom">
+                    <h3 class="fst-italic">Introduction</h3>
+                    <p>Considered an all-rounder in SUPER JUNIOR along with Eunhyuk, he possesses exceptional musical abilities at the highest level within the team, whether it's vocals, rap, dance, songwriting, or producing. He is also active with Eunhyuk as SUPER JUNIOR-D&E, and has participated in writing and composing most of their title tracks. Within the team, he is responsible for lead vocals, lead dancer, and sub-rapper, and his rap skills are also of a high standard, making him a member who can fill any gaps that may arise. He is also considered a visual member, like Siwon and Heechul in Super Junior. That's quite an impressive combination. Recently, he showcased his outstanding rap skills through the digital single "Blue Moon," and his accumulated experience is already remarkable, but there is even greater anticipation for his future.</p>
+                </div>
+                <div class="mt-1 mb-1 border-bottom d-none d-md-block">
+                    <h3>Career</h3>
+                    <p>In 2005, Donghae debuted as a member of Super Junior[3] and made his first stage appearance on the music program "Popular Songs" with their debut song "Twins (Knock Out)." Subsequently, he starred in music videos for BoA's "Key Of Heart" and Girls' Generation's "Kissing You."
+
+                        In 2007, the entire Super Junior members starred in the youth comedy mystery film "Attack on the Pin-Up Boys," which was released in Korea. Donghae portrayed a dance club member and detective in the film[4]. In the same year, Super Junior released their second Korean album, "Don't Don," which included the song "I am" with lyrics written by Donghae.
+                        
+                        In 2008, Donghae debuted in China with the sub-unit Super Junior-M and released their first Mandarin album, "Me."
+                        
+                        In 2009, he appeared in music videos for Lin Yi-Chen's "Fireflies" and Jang Ri In's "Goodbye...," and at the end of the year, Super Junior won the Disk Daesang, Disk Bonsang, and Popularity Award at the Korean Golden Disk Awards with their third album, "Sorry, Sorry."
+                        
+                        On May 13, 2010, Super Junior released their fourth Korean album, "Bonamana," which included the song "A Short Journey" composed by Donghae. That same year, Donghae composed and performed the theme song for the Korean variety show "Strong Heart." Towards the end of the year, Donghae started to venture into the acting field and starred in the drama "It's Okay, Daddy's Girl" as the responsible and honest young man Choi Seung-hyeok. He also composed and sang the insert song "Just Like Now"[5].
+                        
+                        On August 3, 2011, Super Junior released their fifth Korean album, "Mr. Simple," and the follow-up album "A-Cha," which included Donghae's self-composed songs "Y" and "Oops!!". In December of the same year, Donghae and fellow member Eunhyuk formed the sub-unit Super Junior-Donghae & Eunhyuk and released their first Korean single, "Oppa, Oppa," which included Donghae's self-composed song "First Love"[6]. Additionally, Donghae starred in the drama "Skip Beat!" alongside Siwon; he played the role of a creative singer who left his hometown to pursue his dreams and performed the theme song "Glorious" and the ending song "This is Love." At the end of the year, Super Junior received the Album of the Year, Best Male Group, and Popularity Awards at the Mnet Asian Music Awards and also won the Disk Daesang and Seoul Music Awards' Disk Daesang with their album "Mr. Simple."
+                        
+                        In 2012, Donghae starred in the romantic comedy "Ms. Panda and Mr. Hedgehog"[8], portraying a pastry chef named Go Seung-ji, and performed the theme song "Please Don't" and the insert song "Don't Go." On July 4, Super Junior released the repackaged version of their sixth Korean album, "Spy," which included Donghae's self-composed songs "Only U" and "Haru." Donghae also formed a performance group called S.M. The Performance with six other artists from the same company and collaborated on the Korean single "Spectrum" for the SBS Gayo Daejeon. That year, Super Junior won the Album of the Year at the Golden Disk Awards and the Mnet Asian Music Awards with their album "Sexy, Free & Single."
+                        
+                    </p>
+                </div>
+                <div class="mt-1 mb-1 border-bottom d-block d-md-none">
+                    <h3 class="fst-italic">Career</h3>
+                    <p>In 2005, Donghae debuted as a member of Super Junior[3] and made his first stage appearance on the music program "Popular Songs" with their debut song "Twins (Knock Out)." Subsequently, he starred in music videos for BoA's "Key Of Heart" and Girls' Generation's "Kissing You."
+
+                        In 2007, the entire Super Junior members starred in the youth comedy mystery film "Attack on the Pin-Up Boys," which was released in Korea. Donghae portrayed a dance club member and detective in the film[4]. In the same year, Super Junior released their second Korean album, "Don't Don," which included the song "I am" with lyrics written by Donghae.
+                        
+                        In 2008, Donghae debuted in China with the sub-unit Super Junior-M and released their first Mandarin album, "Me." 
+                    </p>
+                    <a class="link-secondary" href="#">Continue reading>></a>
+                </div>
+                <div class="mt-1 mb-1">
+                    <h3 class="fst-italic">Composition</h3>
+                    <ol class="list-unstyled">
+                        <li><a href="#" class="link-primary text-decoration-none">Sunrise</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">Still You</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">Shirt</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">1+1=Love</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">Growing Pains</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">Mother</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">Danger</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">One More Chance</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">California Love</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">ZERO</a></li>
+                        <li><a href="#" class="link-secondary">Continue reading>></a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-4 d-none d-md-block">
+            <div class="sticky-top" style="top: 16px;">
+                <div class="p-4 bg-light rounded">
+                    <h3>About Me</h3>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nostrum excepturi non possimus doloribus tempora nisi, voluptate laboriosam velit. Aperiam.</p>
+                </div>
+                <div class="p-4">
+                    <h3>Archives</h3>
+                    <ol class="list-unstyled">
+                        <li><a href="#" class="link-secondary text-decoration-none">July 2023</a></li>
+                        <li><a href="#" class="link-secondary text-decoration-none">June 2023</a></li>
+                        <li><a href="#" class="link-secondary text-decoration-none">May 2023</a></li>
+                        <li><a href="#" class="link-secondary text-decoration-none">April 2023</a></li>
+                        <li><a href="#" class="link-secondary text-decoration-none">March 2023</a></li>
+                        <li><a href="#" class="link-secondary text-decoration-none">February 2023</a></li>
+                        <li><a href="#" class="link-secondary text-decoration-none">January 2023</a></li>
+                    </ol>
+                </div>
+                <div class="p-4">
+                    <h3>Elsewhere</h3>
+                    <ol class="list-unstyled">
+                        <li><a href="#" class="link-primary text-decoration-none">Facebook</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">Instagram</a></li>
+                        <li><a href="#" class="link-primary text-decoration-none">Youtube</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="bg-secondary text-center border-top py-4 mt-5">
+    <h4>Bootstrap Homework</h4>
+    <p class="mb-0">Practice makes perfect.</p>
+</footer>
+</body>
+</html>
